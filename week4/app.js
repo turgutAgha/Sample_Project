@@ -112,3 +112,24 @@
 // });
 
 // console.log(countEven)
+
+// example4
+
+// setInterval(() => {console.log("hello")}, 1000)
+
+
+// example5
+
+// let timeint = setInterval( () => console.log('hello'), 2000);
+// setTimeout(() => {clearInterval(timeint); console.log('stop')}, 5000);
+
+// task
+
+
+function inc(from, to){
+    let count = from;
+    let timeint = setInterval( () =>{console.log(count++);} , 1000)
+    setTimeout( () => {clearInterval(timeint); console.log('finish')}, 1000*(to-from))
+}
+
+inc(10, 15)
