@@ -126,10 +126,10 @@
 // task
 
 
-function inc(from, to){
-    let count = from;
-    let timeint = setInterval( () =>{console.log(count++);} , 1000)
-    setTimeout( () => {clearInterval(timeint); console.log('finish')}, 1000*(to-from))
-}
+// function inc(from, to){
+//     let count = from;
+//     let timeint = setInterval( () =>{console.log(count++);} , 1000)
+//     setTimeout( () => {clearInterval(timeint); console.log('finish')}, 1000*(to-from))
+// }
 
-inc(10, 15)
+// inc(10, 15)
