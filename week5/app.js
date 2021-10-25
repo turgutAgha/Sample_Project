@@ -86,8 +86,8 @@
 // }
 
 // 2
-let butt = document.getElementById('but')
-butt.addEventListener('click', () => {
+let but = document.getElementById('but')
+but.addEventListener('click', () => {
     // by class name
     // let val = document.getElementsByClassName('inp')[0].value;
     // by tag name
