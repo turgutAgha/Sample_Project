@@ -1,0 +1,18 @@
+#container{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* border: 1px solid b; */
+}
+
+/* input, button{width: 100%;} */
+/* 
+.error{
+    border: 1px solid red;
+}
+
+.success{
+    border: 1px solid green;
+} */
+
+small{ color: red;}
